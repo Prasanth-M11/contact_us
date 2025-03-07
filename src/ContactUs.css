@@ -1,0 +1,405 @@
+/* Apply fonts globally */
+.contact-us-page {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px; /* Adjusted to match new image */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1e1c1c47; /* Solid color from new image */
+    color: #FFFFFF;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+  
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  .logo-text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #de5e1e;
+  }
+  
+  .logo-subtext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav .lets-talk {
+    color: #de5e1e;
+    font-weight: bold;
+  }
+  
+  /* Main Section */
+  .main {
+    position: relative;
+    padding-top: 80px;
+  }
+  
+  .background-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/path_to_handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .background-image h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    margin-top: 300px;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    background: linear-gradient(to bottom left, rgba(36, 34, 34, 0.984),rgba(210, 104, 51, 0.506) );
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+ .contact-form h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  padding: 10px 20px; /* Add padding for better appearance */
+  background-color: #4a4a4a00; /* Default background color */
+  color: #FFFFFF; /* Ensure text is visible */
+  border-radius: 35px;
+  border-style:solid;
+  border-color: #de5e1e; /* Rounded border for oval effect */
+  display: inline-block; /* Allows padding and border-radius to work */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.contact-form h2:hover {
+  background-color: #de5e1e; /* Orange on hover */
+}
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #d3d3d3;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form button {
+    background-color: #de5e1e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #c54e10;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    max-width: 400px;
+  }
+  
+  .contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .info-item .icon {
+    font-size: 20px;
+    color: #de5e1e;
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 80px;
+    background-color: #1a2526;
+    color: white;
+    min-height: 200px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-logo .logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+  }
+  
+  .footer-logo .logo-subtext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+  
+  .footer-links h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-links a {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #de5e1e;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .footer-policies {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-policies a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .social-item a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .social-item a:hover .x-logo {
+    color: #de5e1e; /* Orange on hover */
+  }
+  
+  .social-item span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: white;
+  }
+  
+  /* Custom X Logo Styling */
+  .x-logo {
+    color: #FFFFFF; /* White by default */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      padding: 15px 20px;
+    }
+  
+    .nav {
+      gap: 10px;
+    }
+  
+    .nav a {
+      font-size: 14px;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+  
+    .contact-form,
+    .contact-info {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .contact-form {
+      margin-bottom: 30px;
+    }
+  
+    .background-image {
+      height: 200px;
+    }
+  
+    .background-image h1 {
+      font-size: 36px;
+    }
+  
+    .content {
+      margin-top: 200px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  
+    .footer-logo,
+    .footer-links,
+    .footer-policies,
+    .social-icons {
+      margin-bottom: 30px;
+    }
+  
+    .footer-policies {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      flex-direction: column;
+      gap: 10px;
+      padding: 15px 20px;
+    }
+  
+    .logo-text,
+    .logo-text1 {
+      font-size: 20px;
+    }
+  
+    .logo-subtext {
+      font-size: 12px;
+    }
+  
+    .nav a {
+      font-size: 12px;
+    }
+  
+    .background-image {
+      height: 150px;
+    }
+  
+    .background-image h1 {
+      font-size: 28px;
+    }
+  
+    .content {
+      margin-top: 150px;
+    }
+  
+    .contact-form h2,
+    .contact-info h2 {
+      font-size: 24px;
+    }
+  
+    .footer-links a,
+    .footer-policies a {
+      font-size: 14px;
+    }
+  
+    .social-item a {
+      font-size: 20px;
+    }
+  
+    .social-item span {
+      font-size: 10px;
+    }
+  }
