@@ -1,0 +1,96 @@
+.footer {
+    background-color: #232637;
+    color: #DBDCE0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 27.5rem;
+    padding: 0 7.5rem;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo-box {
+    background-color: #0b0e1f;
+    color: #DBDCE0;
+    padding: 1.25rem 2.5rem; 
+    font-weight: bold;
+    border-radius: 0.3rem;
+  }
+  
+  .company-name {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0 0 0;
+    font-family: Montserrat;
+  }
+  
+  .highlight {
+    color: #ff7b24;
+  }
+  
+  .footer-center h3 {
+    font-size: 1.5rem;
+    font-family: Montserrat;
+  }
+  
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-center ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-center ul li a {
+    color: #DBDCE0;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Montserrat;
+    font-size: 1rem;
+  }
+  
+  .footer-center ul li a.active {
+    color: #E45F06;
+    font-family: Montserrat;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .policy-links {
+    display: flex;
+    gap: 1.25rem; /* Converted from 20px */
+    margin-bottom: 1rem;
+  }
+  
+  .policy-links a {
+    color: #DBDCE0;
+    text-decoration: none;
+    font-size: 1.313rem;
+    font-family: Montserrat;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem; /* Converted from 15px */
+    font-size: 3rem;
+    color: #DBDCE0;
+  }
+
+  .social-icons img {
+    width: 3rem; /* Adjust size */
+    height: 3rem;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .social-icons img:hover {
+    opacity: 0.8;
+  }
+  
